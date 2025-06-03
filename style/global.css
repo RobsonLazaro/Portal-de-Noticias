@@ -25,7 +25,6 @@ body{
     font: var(--text);
     color: var(--text-color-primary);
     background-color: var(--bg-color);
-
 }
 
 a{
@@ -35,7 +34,6 @@ a{
 
 a:hover{
     color: var(--brand-color-light);
-
 }
 
 h1,h2,h3{
@@ -43,6 +41,15 @@ h1,h2,h3{
 }
 
 .container{
-    width: 1216px;
-    margin: 0 auto;
+    max-width: 1280px;
+    padding-inline: 32px ;
+    margin-inline: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+main{
+    margin-top: 40px;
 }
